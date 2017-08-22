@@ -1,0 +1,16 @@
+h1 {
+	color: green;
+}
+
+section {
+	
+}
+
+aside {
+	float: right;
+	margin: 10px auto 10px auto;
+}
+
+footer {
+	border: 10px solid black;
+}
