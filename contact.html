@@ -2,6 +2,7 @@
 	<html>
 	<head>
 		<title>Kevin Kung</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
@@ -17,6 +18,22 @@
 			<div id="leftSection">
 				<h2>Email Form</h2>
 				<hr/>
+				<form>
+					<fieldset>
+						<legend>Email me!</legend>
+						<label for="yn">Name</label><br>
+						<input type="text" id="yn" name="yourname" placeholder="Your name">
+						<br><br>
+						<label for="em">Email</label><br>
+						<input type="text" id="em" name="Email" placeholder="Return email">
+						<br><br>
+						<label>Message</label><br>
+						<textarea name="message" rows="10" class="formelementMessage" placeholder="Send a message!"></textarea>
+						<br><br>
+						<input type="Submit" name="subbutton">
+					</fieldset>
+				</form>
+
 			</div>
 			<div id="rightSection">
 				<h2>Contact me!</h2>
@@ -26,6 +43,8 @@
 			<img src="assets/images/stackoverflow.png" class="iconImg">
 			</div>
 		</div>
-		<footer>Testing footer</footer>
+		<footer>
+			&copy; Copyright Kevin Kung 2017
+		</footer>
 	</body>
 </html>
