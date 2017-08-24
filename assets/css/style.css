@@ -10,12 +10,13 @@ body{
 h1 {
 	color: white;
 	font-size: 35px;
-	text-decoration-style: 
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin: 0;
 	padding: 0;
 }
 
 h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
 	text-align: center;
 	padding:15px 0 10px 0;
@@ -113,6 +114,7 @@ div{
 .container{
 		max-width: 960px;
 		margin: 0 auto;
+		border: 1px solid black;
 }
 
 #leftSection{
@@ -202,6 +204,10 @@ div{
 	box-shadow: -3px 3px 1px gray;
 }
 
+.portObject:hover{
+	box-shadow: -5px 5px 2px gray;
+}
+
 .portImage{
 	width:auto;
 	height:100%;
@@ -219,4 +225,8 @@ div{
 	padding-top: 3px;
 	bottom: 15px;
 	left: 5%;
+}
+
+.portTitle:hover{
+	opacity: .8;
 }
