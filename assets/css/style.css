@@ -114,7 +114,6 @@ div{
 .container{
 		max-width: 960px;
 		margin: 0 auto;
-		border: 1px solid black;
 }
 
 #leftSection{
